@@ -1,0 +1,46 @@
+form {
+    display: flex;
+    justify-content: center
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+}
+
+.container {
+    display: inline-block;
+    width: 25%;
+    height: 70vh;
+    background-color: rgb(201, 201, 201);
+    text-align: center;
+
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    margin: 10px auto;
+    flex-wrap: wrap;
+}
+
+.side-by-side {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px auto;
+    width: 100px;
+}
+
+.radio {
+    width: 100%;
+}
+
+.side-by-side.checkbox {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px auto;
+    width: 50%;
+}
